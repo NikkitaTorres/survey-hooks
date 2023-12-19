@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Header';
-import SurveyControl from './components/SurveyControl';
+import ControlView from './ControlView'
 
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <SurveyControl />
+      <ControlView />
     </React.Fragment>
   );
 }
